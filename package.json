@@ -1,0 +1,31 @@
+{
+    "name": "apiagenda",
+    "version": "1.0.0",
+    "description": "This repository is about nodejs and I created to understand how to create api with typescript using FASTIFY, PRISMA and SQLite.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "tsx watch src/server.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Josue-Diogo-Pedro/ApiAgenda.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/Josue-Diogo-Pedro/ApiAgenda/issues"
+    },
+    "homepage": "https://github.com/Josue-Diogo-Pedro/ApiAgenda#readme",
+    "devDependencies": {
+        "prisma": "^6.4.1",
+        "tsx": "^4.19.3",
+        "typescript": "^5.8.2"
+    },
+    "dependencies": {
+        "@prisma/client": "^6.4.1",
+        "fastify": "^5.2.1"
+    }
+}
